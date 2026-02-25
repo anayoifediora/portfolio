@@ -8,7 +8,7 @@ const AboutMe = () => {
       <img src={myImage} className="my-image" alt="" />
       <section className="my-info">
         <p>
-          Hello, I’m Mr. Kanayochi Ifediora, a junior web developer with a
+          Hello, I am Mr. Kanayochi Ifediora, a junior web developer with a
           strong interest in building practical, user-focused web applications.
         </p>
         <p>
