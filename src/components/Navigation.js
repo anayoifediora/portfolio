@@ -22,13 +22,13 @@ const Navigation = ({currentPage, handlePageChange}) => {
                      Portfolio
                     </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                     <a className= {currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                        href="#contact"
                        onClick={() => handlePageChange('Contact')}>
                      Contact
                     </a>
-                </li>
+                </li> */}
                 <li className="nav-item">
                     <a className= {currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
                        href="#resume"
