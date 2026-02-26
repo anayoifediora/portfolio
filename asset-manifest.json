@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9c2f61c2.css",
-    "main.js": "/portfolio/static/js/main.d7eaf88e.js",
+    "main.css": "/portfolio/static/css/main.2fa49b47.css",
+    "main.js": "/portfolio/static/js/main.bf199700.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/News Blog.png": "/portfolio/static/media/News Blog.7b5cc2453e65a1464047.png",
     "static/media/ProductsPage.png": "/portfolio/static/media/ProductsPage.51d7160ffb1409a1d921.png",
     "static/media/Employee database.png": "/portfolio/static/media/Employee database.8173a74d671b0344ed96.png",
+    "static/media/Task Manager.png": "/portfolio/static/media/Task Manager.106b364a1461a49d46bb.png",
     "static/media/Kana.jpg": "/portfolio/static/media/Kana.1a740efa13d8a0e45d31.jpg",
-    "static/media/Weather Dashboard.png": "/portfolio/static/media/Weather Dashboard.aeab6a7a5b6b92de37ae.png",
     "static/media/KANA Tech CV.docx": "/portfolio/static/media/KANA Tech CV.6e216384bcff0ece307b.docx",
     "static/media/logo.svg": "/portfolio/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/portfolio/index.html",
-    "main.9c2f61c2.css.map": "/portfolio/static/css/main.9c2f61c2.css.map",
-    "main.d7eaf88e.js.map": "/portfolio/static/js/main.d7eaf88e.js.map",
+    "main.2fa49b47.css.map": "/portfolio/static/css/main.2fa49b47.css.map",
+    "main.bf199700.js.map": "/portfolio/static/js/main.bf199700.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9c2f61c2.css",
-    "static/js/main.d7eaf88e.js"
+    "static/css/main.2fa49b47.css",
+    "static/js/main.bf199700.js"
   ]
 }
