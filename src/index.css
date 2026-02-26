@@ -97,7 +97,7 @@ body {
 .app-image {
   width: 400px;
   margin: 0px;
-  opacity: 0.5;
+  opacity: 0.9;
   background-color: var(--french-gray);
 }
 .app-image:hover {

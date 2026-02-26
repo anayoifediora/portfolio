@@ -1,25 +1,25 @@
 import React from "react";
-import Weather from "../../Assets/Weather Dashboard.png";
 import Employee from "../../Assets/Employee database.png";
 import NewsBlog from "../../Assets/News Blog.png";
-import QuickBasket from "../../Assets/ProductsPage.png"
+import QuickBasket from "../../Assets/ProductsPage.png";
+import TaskManager from "../../Assets/Task Manager.png";
 
 const Portfolio = () => {
   return (
     <div className="projects-container">
-      <h2 className="page-titles" style={{ textAlign: "center" }}>
-        Portfolio
+      <h2 className="page-titles" style={{ textAlign: "center", textDecoration: "underline" }}>
+        Portfolio Projects
       </h2>
       <div
         className="row"
         style={{ display: "flex", justifyContent: "center" }}
       >
         <div className="card border-secondary p-3" style={{ width: "35rem" }}>
-          <img src={Weather} className="app-image card-img-top" alt="..." />
+          <img src={TaskManager} className="app-image card-img-top" alt="..." />
           <div class="card-body">
-            <h5 class="card-title fs-3">Weather ForeCast Dashboard</h5>
+            <h5 class="card-title fs-3">Task Manager</h5>
             <a
-              href="https://github.com/anayoifediora/Weather-Forecast-Dashboard"
+              href="https://github.com/anayoifediora/Task_Manager"
               class="card-link"
               target="_blank"
               rel="noreferrer"
@@ -27,7 +27,7 @@ const Portfolio = () => {
               Github
             </a>
             <a
-              href="https://anayoifediora.github.io/Weather-Forecast-Dashboard/"
+              href="https://limitless-savannah-15649-a45e9921acb2.herokuapp.com/"
               class="card-link"
               target="_blank"
               rel="noreferrer"
@@ -36,7 +36,7 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        <div className="card border-secondary p-3" style={{ width: "35rem" }}>
+        {/* <div className="card border-secondary p-3" style={{ width: "35rem" }}>
           <img
             src={Employee}
             className="app-image card-img-top"
@@ -62,7 +62,7 @@ const Portfolio = () => {
               Video Demo
             </a>
           </div>
-        </div>
+        </div> */}
       </div>
       <div
         className="row"
