@@ -21,7 +21,7 @@ body {
 }
 
  * {
-  font-family: 'Google Sans Flex', sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
  }
  .header {
   
@@ -61,7 +61,7 @@ body {
   display: flex;
   flex-direction: column;
   align-self:center;
-  font-size: 23px;
+  font-size: 20px;
   padding: 40px;
   margin: 20px 10px 0px 10px;
   max-width: 80%;
@@ -96,6 +96,7 @@ body {
 }
 .app-image {
   width: 400px;
+  height: 300px;
   margin: 0px;
   opacity: 0.9;
   background-color: var(--french-gray);

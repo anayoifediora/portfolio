@@ -3,6 +3,7 @@ import Employee from "../../Assets/Employee database.png";
 import NewsBlog from "../../Assets/News Blog.png";
 import QuickBasket from "../../Assets/ProductsPage.png";
 import TaskManager from "../../Assets/Task Manager.png";
+import Servexa from "../../Assets/Servexa.png";
 
 const Portfolio = () => {
   return (
@@ -14,6 +15,28 @@ const Portfolio = () => {
         className="row"
         style={{ display: "flex", justifyContent: "center" }}
       >
+        <div className="card border-secondary p-3" style={{ width: "35rem" }}>
+          <img src={Servexa} className="app-image card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title fs-3">Servexa</h5>
+            <a
+              href="https://github.com/anayoifediora/Servexa"
+              class="card-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+            <a
+              href="https://agile-citadel-78208-01d98a19faad.herokuapp.com/"
+              class="card-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              App link
+            </a>
+          </div>
+        </div>
         <div className="card border-secondary p-3" style={{ width: "35rem" }}>
           <img src={TaskManager} className="app-image card-img-top" alt="..." />
           <div class="card-body">
@@ -36,33 +59,7 @@ const Portfolio = () => {
             </a>
           </div>
         </div>
-        {/* <div className="card border-secondary p-3" style={{ width: "35rem" }}>
-          <img
-            src={Employee}
-            className="app-image card-img-top"
-            alt="..."
-            style={{ height: "310px" }}
-          />
-          <div class="card-body border-secondary p-3">
-            <h5 class="card-title fs-3">Employee Database, Node.js App</h5>
-            <a
-              href="https://github.com/anayoifediora/Employee-database-tracker"
-              class="card-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-            <a
-              href="https://drive.google.com/file/d/1-tsCeRqngHLqYjwlLJfxiRkfAl07ncB7/view"
-              class="card-link"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Video Demo
-            </a>
-          </div>
-        </div> */}
+        
       </div>
       <div
         className="row"
